@@ -18,8 +18,9 @@ const Dictaphone = ({
 }) => {
   if (!browserSupportsSpeechRecognition) {
     return null;
-  }else if(transcript === 'next' || transcript === ' next'){
-    window.location.href = '/askAge'
+  }else if(transcript.includes('next') || transcript.includes(' next') || transcript.includes('next ') ){
+    window.location.href = '/askAge';
+    return;
   }
 
   return (
