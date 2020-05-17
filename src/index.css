@@ -1,0 +1,7 @@
+.fillPage {
+  position: fixed;
+  top: 100px;
+  left: 400px;
+  right: 400px;
+  bottom: 50;
+}
