@@ -18,5 +18,4 @@ cd <Cloned Directory>
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If You want commercial version of the same please drop and email to sales@kotaielectronics.com
 
